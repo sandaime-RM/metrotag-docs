@@ -112,7 +112,7 @@ const config = {
               },
               {
                 label: 'アプリの使用方法',
-                to: '/docs/アプリの使用方法/intro',
+                to: '/docs/アプリの使用方法/0_intro',
               },
             ],
           },
