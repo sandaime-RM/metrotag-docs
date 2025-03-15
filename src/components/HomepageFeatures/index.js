@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+// import { useBlogPosts } from '@docusaurus/plugin-content-blog/lib/client';
 
 const FeatureList = [
   {
@@ -52,6 +53,8 @@ function Feature({Svg, title, description}) {
 }
 
 export default function HomepageFeatures() {
+  // const blogPosts = useBlogPosts();
+
   return (
     <section className={styles.features}>
       <div className="container">
@@ -61,6 +64,17 @@ export default function HomepageFeatures() {
           ))}
         </div>
       </div>
+
+      {/* <div>
+        <h2>📝 最新のブログ</h2>
+        <ul>
+          {blogPosts.slice(0, 3).map(({ metadata }) => (
+            <li key={metadata.permalink}>
+              <a href={metadata.permalink}>{metadata.title}</a>
+            </li>
+          ))}
+        </ul>
+      </div> */}
     </section>
   );
 }
