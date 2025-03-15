@@ -149,6 +149,11 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      colorMode: {
+        defaultMode: 'light', // デフォルトをライトモードに
+        disableSwitch: true, // ダークモード切り替えを無効化
+        respectPrefersColorScheme: false, // OSのダークモード設定も無視
+      },
     }),
 };
 

@@ -69,3 +69,17 @@ button:hover {
   background-color: var(--ifm-color-primary-dark);
   color: white;
 }
+
+.custom-button {
+  background-color: #FFFFFF !important;
+  color: #6C44A2 !important;
+  border: 2px solid #6C44A2 !important;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 8px; /* 角を少し丸くする */
+  transition: 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #E0C3FC !important;
+}

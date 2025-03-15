@@ -4,32 +4,34 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "誰でも簡単に遊べる！",
+    Svg: require('@site/static/img/undraw_my-location_plm0.svg').default, // アイコンを変更
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        スマホ1つで簡単に参加！<br/>
+        Webアプリだから、インストール不要でアクセス可能。<br/>
+        アカウントを作れば、すぐにゲームに参加できます！
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "広範囲で遊べる新感覚の鬼ごっこ！",
+    Svg: require('@site/static/img/undraw_subway_66jh.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        街全体が鬼ごっこのフィールド！<br/>
+        鉄道やバスを使って移動しながら遊ぶ、新しい鬼ごっこ体験。<br/>
+        作戦を考え、鬼から逃げたり追い詰めたりしよう！
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "誰でもイベントを主催できる！",
+    Svg: require('@site/static/img/undraw_ideas_41b9.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        ルールやミッションを考えて、自分だけの鬼ごっこを開催！<br/>
+        友達と遊ぶもよし、大規模イベントを開くもよし！
       </>
     ),
   },
