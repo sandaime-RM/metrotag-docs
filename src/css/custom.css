@@ -83,3 +83,11 @@ button:hover {
 .custom-button:hover {
   background-color: #E0C3FC !important;
 }
+
+.hero--primary {
+  background-image: url('/img/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; /* テキスト色を調整 */
+}

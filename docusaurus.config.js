@@ -91,7 +91,7 @@ const config = {
           {to: '/blog', label: 'ブログ', position: 'left'},
           {
             href: 'https://traffic-tag-game.web.app',
-            label: '電鬼２',
+            label: '電鬼２アプリ',
             position: 'right',
           },
         ],
