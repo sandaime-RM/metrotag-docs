@@ -104,7 +104,7 @@ const config = {
             items: [
               {
                 label: 'どんなイベント？',
-                to: '/docs/0_intro',
+                to: '/docs/intro',
               },
               {
                 label: '鬼ごっこの開催',
@@ -112,7 +112,7 @@ const config = {
               },
               {
                 label: 'アプリの使用方法',
-                to: '/docs/アプリの使用方法/0_intro',
+                to: '/docs/アプリの使用方法/intro',
               },
             ],
           },

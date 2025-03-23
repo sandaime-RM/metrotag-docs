@@ -1,6 +1,7 @@
-matsuri: 
+まつり: 
   name: まつり
+  title: 電鬼アプリ開発者 / FunAMP社代表
   email: ryusei.m@funamp.jp
   twitter: matsuri_ee
   github: sandaime-RM
-  avatar: /images/ryusei.jpg
+  image_url: /img/ryusei.jpg
